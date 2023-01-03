@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 export default function BlogPostsPage() {
   const router = useRouter();
   console.log(router.query);
-  // http://localhost:3000/blog/2020/12
+  // http://localhost:3000/blog/2020/12로 주소창 입력시
   //   {
   //     "slug": [
   //         "2020",

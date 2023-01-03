@@ -1,3 +1,7 @@
+// react와 다르게 next.js는 만들어야 할 컴포넌트 파일을 생성해서 라우팅을 하므로 (파일기반 라우팅) react처럼 따로 route를 위한 코드를 작성할 필요 없음
+
+// index페이지는 언제나 해당 폴더의 가장 기본 페이지이며 전체 루트 페이지에 적용되므로 index.js파일이 pages 폴더나 /portfolio/인 경로에 대해 index.js파일을 불러온다
+
 import Link from 'next/link';
 
 export default function Home() {
