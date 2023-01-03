@@ -23,7 +23,7 @@ export default function Home() {
             {/* replace -> push대신 replace하는 속성 뒤로가기 history에 쌓이지 않고 대체된다 */}
           </li>
           <li>
-            <Link href="/client">Clients</Link>
+            <Link href="/clients">Clients</Link>
           </li>
         </ul>
       </div>
